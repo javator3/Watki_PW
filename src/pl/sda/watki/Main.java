@@ -50,10 +50,10 @@ public class Main {
 
         //zadanie - rozwiązanie 2
         int numer = 3;
-        RunnerZadanie runnerZadanie = new RunnerZadanie(numer);
-        RunnerZadanie runnerZadanie1 = new RunnerZadanie(numer);
-        runnerZadanie.start();
-        runnerZadanie1.start();
+//        RunnerZadanie runnerZadanie = new RunnerZadanie(numer);
+//        RunnerZadanie runnerZadanie1 = new RunnerZadanie(numer);
+//        runnerZadanie.start();
+//        runnerZadanie1.start();
 
 
 //        Thread thread = new Thread(new Runner());
