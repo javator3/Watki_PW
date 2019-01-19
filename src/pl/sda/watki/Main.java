@@ -42,16 +42,25 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Thread watek1 = new Thread(new Zadanie());
-        Thread watek2 = new Thread(new Zadanie());
-        watek1.start();
-        watek2.start();
+        //zadanie - rozwiązanie 1
+//        Thread watek1 = new Thread(new Zadanie());
+//        Thread watek2 = new Thread(new Zadanie());
+//        watek1.start();
+//        watek2.start();
+
+        //zadanie - rozwiązanie 2
+        int numer = 3;
+        RunnerZadanie runnerZadanie = new RunnerZadanie(numer);
+        RunnerZadanie runnerZadanie1 = new RunnerZadanie(numer);
+        runnerZadanie.start();
+        runnerZadanie1.start();
 
 
 //        Thread thread = new Thread(new Runner());
 //        Thread thread1 = new Thread(new Runner());
 //        thread.start();
 //        thread1.start();
+
 
 //        RunnerExample runnerExample = new RunnerExample();
 //        RunnerExample runnerExample2 = new RunnerExample();
